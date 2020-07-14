@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Custom_CelRenderFull
+  m_Shader: {fileID: 4800000, guid: 54da17e3902319e47800cdb4d4b65de3, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _IlmTex:
+        m_Texture: {fileID: 2800000, guid: e7d3a9d4b0d41a349a932dcf425b9468, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 948466d18d269c142a22ccb1090b7d78, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalTex:
+        m_Texture: {fileID: 2800000, guid: 94c091e05da3a5e42abd2ab13cefeade, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _OutlineWidth: 0.567
+    - _ShadowRange: 0.7
+    - _ShadowSmooth: 0.004
+    - _Smoothness: 0.05
+    - _SpecularGloss: 3.43
+    - _SpecularMulti: 0.553
+    - _SpecularRange: 0.28
+    m_Colors:
+    - _MainColor: {r: 0.5952296, g: 0.6317551, b: 0.7169812, a: 1}
+    - _OutLineColor: {r: 0.30717254, g: 0.30411178, b: 0.3207547, a: 1}
+    - _ShadowColor: {r: 0.11311855, g: 0.2317106, b: 0.38679248, a: 1}
+    - _SpecularColor: {r: 0.972253, g: 1, b: 0.9056604, a: 1}
